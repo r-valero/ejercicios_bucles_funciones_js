@@ -23,6 +23,6 @@ const artists = [
 // Añade tu código de bucle aquí
 for (const artist of artists) {
   for (const influence of artist.influences) {
-    console.log(`${artist.name} ← ${influence}`)
+    console.log(`${artist.name} <-- ${influence}`)
   }
 }
